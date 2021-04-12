@@ -1,2 +1,2 @@
 # Rubyを学ぼう
-## chapter5 curriculum start
+## chapter5 curriculum
