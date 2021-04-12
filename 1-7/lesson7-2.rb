@@ -1,10 +1,10 @@
 puts "計算を始めます"
 puts "何回計算を繰り返しますか？"
 
-i = gets.to_i
-z = 1
+input = gets.to_i
 
-while i > 0 do
+i = 1
+while i <= input do
 
   puts "#{z}回目の計算"
   puts "2つの値を入力してください"
@@ -23,7 +23,6 @@ while i > 0 do
   puts "a/b=#{a / b}"
   
   i -= 1
-  z += 1
 end
 
 puts "計算を終了します"
